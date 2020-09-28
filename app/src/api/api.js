@@ -5,7 +5,7 @@ export class Api {
     constructor(ctx) {
         this.ctx = ctx;
         if (process.env.NODE_ENV === 'development') {
-            this.baseUrl = "http://192.168.1.32:8002";
+            this.baseUrl = "http://192.168.1.100:8002";
         } else if (process.env.NODE_ENV === 'production') {
             this.baseUrl = "http://192.168.1.100:8002";
         }

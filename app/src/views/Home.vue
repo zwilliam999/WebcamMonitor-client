@@ -40,7 +40,7 @@
                         <span class="image">
                             <img src="../assets/image/mikutap.png" alt=""/>
                         </span>
-                        <a href="https://aidn.jp/mikutap/">
+                        <a href="javascript:void(0)">
                             <h2>{{item.cameraName}}</h2>
                             <div class="content">
                                 <p>You can’t preview it yet, but it will be available soon.</p>
