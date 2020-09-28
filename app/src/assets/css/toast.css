@@ -1,0 +1,70 @@
+/*toast*/
+.sb-toast {
+    position: absolute;
+    min-width: 42px;
+    padding: 6px 14px;
+    font-size: 0.36rem;;
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+    border-radius: 4px;
+    max-width: 75%;
+    word-break: break-word;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    text-align: center;
+    height: auto;
+}
+/*tip*/
+.sb-tip-error {
+    background-color: #f4615c;
+}
+.sb-tip-error i{
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC6klEQVRYR8WX4VEUQRCF34tAjUCJQIlAiUCMQIhAjECMQIhAjECJQIhAiEDIQCNo67uaXmdnZ3fvCqucP1dwO9uvX79+3Wf95+P/HF87AYiIF5JeSjoswF+Vz6vy+U3Ste2bbRPbCkBEEOizpGdbvvhO0rHtBDZ7bRFARBCQwJlpvuhSUpsl7LxuIgEAIADqnlkAhe7vkh6Xm/eSTmxD8+yJCMpzJulpeeiXpIO5snQBlOA/qijvbfPSrU9EnEj6VF3Y74GYACi0E5zMf0P/LqKqEZZEKMMjSTABiFE5egC4gNI5XdRb0yCpYfPK9kF9fwSg1O9reWBn2ueANeV4U+uoBQA9iOfe9qjlIoKSPCeI7etesNKuIenWNpQPJyLy3Xe29/KLAUBD1QglDzf1pLUumgApuq5uGnaH0tYATiV9QHi2s/VGiUbEUfEF/j+AbF4+AZ8viQhYQZAfbRPvrxVHRIrv0nZa7YTpqp6b/i4PpF8s6iYi8BDMCrvemFvNAM5GjQd0C6KC/reSsqXQyxfbMDR7IiJZvrG93wJAPJxVAEUTCZg/ER1WvHgqAAh5k3zNwK4AkgXec2H7+KEAdilBrXjiIqxV36gYGBirGUgRLtay7YSSdZrXpD2bVk3WuiJk2LzDs20/6dHZTMghWAVqcfJVbXhuGxZHGkBEOQF7RoQ3/CxDasJSRGR2gNjrOCGtnUxNjagoO+1yMjTKlNzY89ymU6yYR7Db0dSrfGZk8+0sqJ1uVVRrqs/vm2E00klvHGc3LNZzh+CUNp1yEF/e7wHgQr1EzK5TayAa0XaH1NxKhk+DmgMTp7bP1wI2LYfKGW452EhksiUvLaWAYHhgMhwun9lmI549ZTLSzrlJk/nhnHDX1nLKQXttFpGKEYCh8lw6yJIOodXqUX4r6Whpp9z2hwndwSTLVXutGqzwlG20tPQubQWgaicYAQyfZJyACAgjdBCD6d/+NFtL9yHf78TAQwLN3f0DKJByMLoX8C0AAAAASUVORK5CYII=);
+}
+.sb-tip-warning {
+    background-color: #f28c48;
+}
+.sb-tip-warning i{
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACeklEQVRYR8WX4VUUQRCEqyJQI1AjECIQMtAIxAjECMQI1AiUCIAIhAjEDCADjKB9H/asc+vNzu769PrPvbvtm66p7qmptXYc3nF9LQIQEXuSXkni82F+sodrSXeSLiVd2Ob7rJgFICKOJL2T9GTWqtKNpBPbp738SQARQcHPkg6qhX5IOtevInWQ+0LSg+pHGHlte5w7pDQBRARFz5Jq/vA9d0XxZkQEIE4kPcskWnPYastWAFn8ay7AjqHzY4/O+nlEHEv6UP22vw3EHwCS9m+5c4ofLBmqEQiGlTbQFpgAxEY7tgHgD88l/VXxAiRPDhsiLm0f1iA3AOS0M3TE2x7tEREk2u4Nc92Ol7aHORoDgJ7HDJxt6JuMuQBYJCLQBgbzxvbTsvAAYETVBsoWioUAOB2cKmIYyBoAU/6G3ttG5bqxBECywCAykO9tc1R/S3FElOE7tY3ydWMFgC8p5Ve278WtZqD0aEDXQ7ACALtG0q9t748B3E90Tc8/BDCcnJqBnQP4ny0YjnnNwOIh7LVo/DwiJoewHMM724+WLj4nPyImjyHKVzS7K0R5aZXrmvxJF5TXdFuIUiiKFA/HZEIFy5EiBdMBvc2opPjW9uCsVl9GKd0URTW5spuuZ+QN2pdRslCGcUOz5/R4W87ojhkUsOS2DAn9LCaiaad6oLI4zgqW8Bd7XUOSLKDTxZIxuViyT72C9fPVlqwskr4Q41BcLqwA5KIzbFy76H3xE5POqudkmFYGDYtWAkambHl9lV9JOlply0d0cj1z7HBLc+JW0nFtvVp/mvVmVLUFWqGYGWGnxfvzzlBezc57olSDWQRgztaX5uwcwE+Tv0YwLlGcawAAAABJRU5ErkJggg==);
+}
+.sb-tip-success {
+    background-color: #01cf97;
+}
+.sb-tip-success i{
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACsUlEQVRYR82X/VUUQRDEqyJQI1AiUCIQMtAIgAjECMQIlAg8IgAiECIQM4AMIIL2/c6ZdW5vd2bu9L2z/7l3+zFTXV1d02vtOLzj/bURgIh4I+lIEr/P0y853El6lHQj6do2/7uiC0BEHEv6JOlV16rSvaQz2xet56sAIoINv0k6KBZ6knSl35uUwbPvJD0rLsLIie3xs8MjswAigk0vE9W88DNlxeazERGAOJP0Oj1EaQ7nyjIJIG3+PS1AxtD5tUVneT8iTiV9Ka7tT4FYA5Bo/5EyZ/ODTUQ1AoFYKQNlgQlArJRjCgAvvJX0V5tnIKlzSIi4sX1YglwBkNSO6IiPm9I+V6JROd7bHnQ0BgA9LxGcbej7ZxEReAPCvLe9lxceAIyoWkHZi6Jg8Mk2RjVE6g66ihgEWQJA5R+o/fjlHgCjBGg7tLQSEYEQEeRn27TqHyuOiCy+C9s4X3dEBNkiNMzo3DYtuBYRsUhWfmt7aW4lA7lGA7oRhbwQtm8nMssLV7UTEWSNpd/Z3h8DiLTwHIAMcGH7JIMo687hVLPdAoBsL5MvGWgBgF5AUEP8fTEyreW1Wt1aAKolYOEi26W/S2JDWosjmDOgGgWAoVQlA10iLIQECMT3kKjnfwtAVYS5DR9tv5hbKSketjAsYrLlZrqg2oY4X/bsqhGlnoex01bdC7FSonkjSjXOVjy0SYvW3vuFFT/YHiar/+swSixkMfJ3cojozTqtV5Z2cMC8xtxAkvu9Ok61gCStMFnRLcwXa0bVM5IBgpHsvLVheX/rkaxQLd7P4JCnXFgByHXD7VA7fp/niepk1TOWYx6MaDlgpDaWl3MAB9fxVmP5iE6OZ06ybD6tauCOeER1hGeRri+joizQCsWUh0zz7M83Q/40u9pkit4IQCvtbe7vHMAvWIVZMO0uIuYAAAAASUVORK5CYII=)
+}
+.sb-tip i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+    background-size: 20px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sb-tip span{
+    line-height: 20px;
+}
+.sb-tip {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 400px;
+    min-width: 400px;
+    padding: 17px 15px;
+    line-height: 20px;
+    border-radius: 2px;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size:16px;
+    outline: 0;
+}
+@media screen and(max-width: 400px){
+    .sb-tip{
+        width: 100%!important;
+        min-width: 100%!important;
+    }
+}
